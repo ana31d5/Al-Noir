@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFontAwesomeLogoFull } from 'react-icons/fa';
 import {
   Nav,
   Bars,
@@ -13,8 +14,17 @@ const NavBar = () => {
     <>
     <Nav>
       <NavLink to = "/">
-        {/* <img src='logo' alt=''/> */}
-        <h1> Logo </h1>
+        <img src={require('../../Images/Logo.jpg')} alt='Logo'
+        style={{ 
+          width:'300px',
+          height: '250px',
+          alignItems: 'left',
+
+
+      } }
+        
+        />
+
 
       </NavLink>
 
