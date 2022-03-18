@@ -4,10 +4,10 @@ import NavBar from './Components /NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Title from './Components /Title';
 import Home from './Components /Pages';
-import Product from './Components /Pages/Product';
+import Product from './Components /Pages/Product'
 import Contactus from './Components /Pages/ContactUs';
 import Signin from './Components /Pages/Signin';
-import SignUp from './Components /Pages/SignUp';
+import SignUp from './Components /Pages/Form/SignUp';
 
 
 function App() {

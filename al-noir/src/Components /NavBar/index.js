@@ -16,15 +16,16 @@ const NavBar = () => {
       <NavLink to = "/">
         <img src={require('../../Images/Logo.jpg')} alt='Logo'
         style={{ 
-          width:'300px',
-          height: '250px',
-          alignItems: 'left',
-
+          width:'200px',
+          height: '150px',
+          position: 'absolute',
+          top: '3px',
+          left: '10px',
+         
 
       } }
         
         />
-
 
       </NavLink>
 

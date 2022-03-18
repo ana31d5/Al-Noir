@@ -1,24 +1,16 @@
-import React from 'react'
-import './Title.css';
+import React from 'react';
+import './title.css';
 
+const Title = () => {
 
-function Title () {
+    return (
 
-return (
-
-    <div className="Title">
-
-        <h1>
+        <section className='title'>
             Nour
-        </h1>
+        </section>
 
 
-
-
-    </div>
-
-)
-
+    )
 
 }
 
